@@ -1,15 +1,15 @@
-# MAS Lead Conversion Modeling (Case Study)
+# Lead Conversion Modeling (Case Study)
 
-Senior-level, end-to-end machine learning workflow to predict which marketing leads convert (`SOLD=1`) and prioritize outreach. The notebook covers data cleaning, feature engineering, modeling, evaluation, and decision-support outputs (lift and top-lead selection).
+End-to-end machine learning workflow to predict which marketing leads convert (`SOLD=1`) and prioritize outreach. The notebook covers data cleaning, feature engineering, modeling, evaluation, and decision-support outputs (lift and top-lead selection).
 
 **Problem Solved**
 Predict conversion for MAS leads so sales can focus on the highest-likelihood prospects, improving conversion efficiency and reducing wasted outreach.
 
 **Impact At A Glance**
-Best models achieved **~0.68 ROC AUC** with **~0.12 PR AUC** on a highly imbalanced dataset, and **~2.35x lift in the top 10%** of ranked leads, enabling targeted outreach with materially higher expected conversion.
+Best models achieved **~0.68 ROC AUC** and **~0.12 PR AUC** on a highly imbalanced dataset, with **~2.35x lift in the top 10%** of ranked leads, enabling targeted outreach with materially higher expected conversion rates.
 
 ## Data
-Source file: `Jr DS Case Study -- MAS data.csv`
+Source file: `Jr DS Case Study -- data.csv.`
 
 Key characteristics:
 - ~70,395 rows, with ~4,250 positive conversions and ~66,145 non-conversions (~6% positive rate).
